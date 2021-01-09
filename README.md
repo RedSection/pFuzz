@@ -1,6 +1,6 @@
 ## What is pFuzz / pFuzz Nedir :question:
 
-pFuzz is an advanced red teaming fuzzing tool which we developed for our researches. It helps us to bypass web application firewall by using different methods at the same time.
+pFuzz is an advanced red teaming fuzzing tool which we developed for our research. It helps us to bypass web application firewall by using different methods at the same time.
 
 pFuzz web uygulama araştırmaları için geliştirdiğimiz, gelişmiş bir fuzzing aracıdır. Farklı güvenlik uygulamaları üzerinde çeşitli saldırı yöntemlerinin denenmesi konusunda süreci hızlandırmak için geliştirilmiştir. 
 
@@ -261,3 +261,13 @@ sendit(myreq)
 | To change a header                 |reqparser.py/HTTPReq | OBJECT.changeheader()       |  headerName,newHeaderName |
 | To get a payload from the file     |exparse.py           | getpayloads()               | sheetName,columnName     |
 | To write a log info/debug/warning  |waflogger.py         | loginfo/logdebug/logwarn()  | logMessage               |
+
+---
+
+### What WAFs did we bypass?
+- FortiWeb
+- Cloudflare
+- Sucuri
+- Akamai
+- Imperva
+- F5 WAF
